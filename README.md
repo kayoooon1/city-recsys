@@ -6,9 +6,9 @@ Which city is the best to live in? This project aims to explore the association 
 |:----------------:|:------:|:----------------------------------------:|:----------:|:------:|
 | 2023-12-07 | 1  | Preprocess in combined dataset & EDA | |  |   
 | 2023-12-14 | 2  | Working on the plot & Correlation & Mathematical Model| |  |
-| 2024-01-09 | 2.5  | Report First Draft, Divide Tasks for Report | |  | 
-| 2024-01-11 | 3  | Finalize the project  | |  |
-| 2024-01-16 | 3.5  | writing report | |  | 
+| 2024-01-09 | 2.5  | Working on the visualization (plots etc) | |  | 
+| 2024-01-11 | 3  | Finalize the project, Report First Draft  | |  |
+| 2024-01-16 | 3.5  | Writing report | |  | 
 | 2024-01-18 | 4  | Finalize the report | |  | 
 | 2024-01-25 | 5  | Done with the report | |  |   
 
