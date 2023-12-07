@@ -5,7 +5,7 @@ Which city is the best to live in? This project aims to explore the association 
 |       Date       | Week | To-dos | | |
 |:----------------:|:------:|:----------------------------------------:|:----------:|:------:|
 | 2023-12-07 | 1  | Preprocess in combined dataset & EDA & Mathematical Modeling | |  |   
-| 2023-12-14 | 2  | Working in the plot & Correlation | |  |
+| 2023-12-14 | 2  | Working on the plot & Correlation | |  |
 | 2024-01-09 | 2.5  | Separate our roles | |  | 
 | 2024-01-11 | 3  | Start writing report | |  |
 | 2024-01-16 | 3.5  | Check what we wrote | |  | 
