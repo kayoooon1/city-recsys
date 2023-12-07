@@ -4,12 +4,12 @@ Which city is the best to live in? This project aims to explore the association 
 ## Timeline   
 |       Date       | Week | To-dos | | |
 |:----------------:|:------:|:----------------------------------------:|:----------:|:------:|
-| 2023-12-07 | 1  | Preprocess in combined dataset & EDA & Mathematical Modeling | |  |   
-| 2023-12-14 | 2  | Working on the plot & Correlation | |  |
-| 2024-01-09 | 2.5  | Separate our roles | |  | 
-| 2024-01-11 | 3  | Start writing report | |  |
-| 2024-01-16 | 3.5  | Check what we wrote | |  | 
-| 2024-01-18 | 4  | | |  | 
+| 2023-12-07 | 1  | Preprocess in combined dataset & EDA | |  |   
+| 2023-12-14 | 2  | Working on the plot & Correlation & Mathematical Model| |  |
+| 2024-01-09 | 2.5  | Report First Draft, Divide Tasks for Report | |  | 
+| 2024-01-11 | 3  | Finalize the project  | |  |
+| 2024-01-16 | 3.5  | writing report | |  | 
+| 2024-01-18 | 4  | Finalize the report | |  | 
 | 2024-01-25 | 5  | Done with the report | |  |   
 
 
