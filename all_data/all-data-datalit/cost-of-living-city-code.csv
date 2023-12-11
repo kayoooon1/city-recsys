@@ -1,0 +1,550 @@
+,Rank,city_ascii,country,Cost of Living Plus Rent Index,Local Purchasing Power Index,code
+0,1,Hamilton,Bermuda,118.1,74.3,
+1,2,Basel,Switzerland,90.2,113.2,BSL
+2,3,Zurich,Switzerland,100.2,104.0,ZRH
+3,4,Lausanne,Switzerland,88.6,99.4,
+4,5,Zug,Switzerland,94.1,121.4,
+5,6,George Town,Cayman Islands,100.0,65.1,
+6,7,Geneva,Switzerland,91.6,100.0,GVA
+7,8,Bern,Switzerland,75.7,134.8,
+8,9,Nassau,Bahamas,74.5,39.4,NAS
+9,10,New York,United States,100.0,100.0,JFK
+13,11,Honolulu,United States,80.4,74.4,HNL
+14,12,San Francisco,United States,94.5,100.3,SFO
+15,13,Oakland,United States,86.2,104.7,OAK
+16,14,Seattle,United States,83.4,108.4,SEA
+17,15,Reykjavik,Iceland,67.6,85.4,REK
+19,16,Canberra,Australia,69.1,69.1,CBR
+20,17,Adelaide,Australia,64.6,67.3,ADL
+21,18,Barbados,Barbados,56.7,29.5,
+22,19,Boston,United States,82.0,106.6,BOS
+23,20,Trondheim,Norway,60.6,87.8,TRD
+24,21,Saint Helier,Jersey,72.3,62.2,
+25,22,San Jose,United States,82.3,130.4,SJC
+26,23,Sacramento,United States,73.2,98.5,SMF
+27,24,Bergen,Norway,59.6,77.6,BGO
+28,25,San Diego,United States,83.2,101.3,SAN
+29,26,Portland,United States,69.7,102.0,PWM
+30,27,Washington,United States,80.1,116.6,
+31,28,Singapore,Singapore,89.8,85.9,SIN
+34,29,Odense,Denmark,58.1,84.0,ODE
+35,30,Oslo,Norway,60.3,96.6,OSL
+38,31,Los Angeles,United States,78.0,116.1,LAX
+39,32,Copenhagen,Denmark,65.4,86.7,CPH
+40,33,Stavanger,Norway,56.7,82.8,SVG
+41,34,London,United Kingdom,76.5,83.0,LCY
+46,35,Chicago,United States,70.5,134.9,MDW
+49,36,Brisbane,Australia,62.6,80.4,BNE
+50,37,Philadelphia,United States,65.2,121.4,PHL
+51,38,Miami,United States,76.3,84.0,MIA
+52,39,Charlotte,United States,71.7,99.7,CLT
+53,40,Tromso,Norway,57.5,87.2,
+54,41,Sydney,Australia,71.2,87.8,SYD
+55,42,Aarhus,Denmark,56.7,100.6,AAR
+56,43,Perth,Australia,61.4,82.3,
+57,44,Denver,United States,68.3,126.6,DEN
+58,45,New Orleans,United States,63.6,87.8,MSY
+59,46,Espoo,Finland,56.5,84.9,
+60,47,Nashville,United States,68.0,107.8,BNA
+61,48,Raleigh,United States,69.1,98.9,RDU
+62,49,Darmstadt,Germany,55.5,90.6,
+63,50,Minneapolis,United States,62.0,110.9,MSP
+64,51,Tampa,United States,69.9,111.2,TPA
+65,52,Tucson,United States,59.9,106.5,TUS
+66,53,Melbourne,Australia,61.4,84.8,MEL
+67,54,Buffalo,United States,60.5,95.9,BUF
+68,55,Villach,Austria,51.1,57.9,
+69,56,Atlanta,United States,65.4,120.3,ATL
+70,57,Pittsburgh,United States,59.5,114.5,
+71,58,Victoria,Canada,63.2,73.3,YYJ
+72,59,Dallas,United States,66.5,111.5,DFW
+74,60,Paris,France,60.4,76.2,PAR
+78,61,Dublin,Ireland,68.9,71.4,DUB
+79,62,Austin,United States,71.5,110.8,AUS
+80,63,Fort Worth,United States,59.1,105.0,DFW
+81,64,Seoul,South Korea,55.0,81.2,ICN
+83,65,Auckland,New Zealand,58.2,83.8,AKL
+84,66,Wellington,New Zealand,60.2,67.2,WLG
+85,67,San Juan,Puerto Rico,62.3,43.6,SJU
+86,68,Aalborg,Denmark,49.8,109.4,
+87,69,Salzburg,Austria,53.5,77.9,SZG
+88,70,Oshawa,Canada,56.9,113.5,
+89,71,Cleveland,United States,57.9,113.6,BKL
+91,72,Oklahoma City,United States,57.3,90.1,OKC
+92,73,Eugene,United States,58.3,80.9,EUG
+93,74,Nice,France,52.7,79.9,NCE
+94,75,Fort Lauderdale,United States,67.7,112.1,FLL
+95,76,Phoenix,United States,61.4,126.9,PHX
+96,77,Lyon,France,50.3,87.5,LYS
+97,78,Fresno,United States,57.6,122.1,FAT
+98,79,Vancouver,Canada,64.9,77.8,YVR
+99,80,Ottawa,Canada,56.4,89.6,YOW
+100,81,Orlando,United States,63.2,113.5,MCO
+101,82,Tel Aviv-Yafo,Israel,59.2,77.3,
+102,83,Munich,Germany,57.7,99.9,
+103,84,Ramat Gan,Israel,55.0,67.9,
+104,85,Las Vegas,United States,58.4,92.9,LAS
+105,86,Calgary,Canada,55.1,94.3,YYC
+106,87,Spokane,United States,57.2,99.3,GEG
+107,88,Reno,United States,59.0,81.3,RNO
+108,89,Dusseldorf,Germany,52.5,93.4,
+109,90,Toronto,Canada,62.0,82.7,YTO
+112,91,Milan,Italy,57.7,51.3,MIL
+116,92,Hamburg,Germany,52.1,99.9,HAM
+117,93,Hong Kong,Hong Kong (China),67.0,68.8,
+118,94,Milwaukee,United States,57.2,138.5,MKE
+119,95,Nanaimo,BC,54.6,79.5,
+120,96,Grand Rapids,United States,58.1,144.0,GRR
+122,97,Cambridge,United Kingdom,58.8,95.3,
+123,98,Columbus,United States,57.4,105.7,CSG
+125,99,Indianapolis,United States,54.5,125.8,IND
+126,100,Albuquerque,United States,57.5,136.6,ABQ
+127,101,Luxembourg,Luxembourg,60.0,124.2,LUX
+128,102,Frankfurt,Germany,53.4,110.4,FRA
+130,103,Madison,United States,59.0,94.6,MSN
+131,104,Freiburg im Breisgau,Germany,51.4,95.4,
+132,105,Nijmegen,Netherlands,52.0,94.4,
+133,106,Detroit,United States,57.9,112.9,DET
+136,107,Edmonton,Canada,49.5,96.1,YEA
+139,108,Valletta,Malta,53.4,42.1,
+140,109,Saint Louis,United States,54.3,103.2,
+141,110,Innsbruck,Austria,51.5,75.6,INN
+142,111,St. John's,Canada,47.5,96.5,YYT
+143,112,Berlin,Germany,54.9,93.4,BER
+147,113,Netanya,Israel,50.3,64.9,
+148,114,Brussels,Belgium,51.6,96.1,BRU
+149,115,Helsinki,Finland,50.9,103.6,HEL
+150,116,Boise,United States,56.9,97.6,BOI
+151,117,Linz,Austria,48.0,83.4,LNZ
+152,118,Quebec City,Canada,47.5,91.7,
+153,119,Halifax,Canada,53.4,81.6,
+154,120,Jacksonville,United States,56.1,124.5,LRF
+162,121,Cologne,Germany,49.8,85.0,CGN
+163,122,Guildford,United Kingdom,58.9,81.0,
+164,123,Turku,Finland,45.9,95.0,TKU
+165,124,Houston,United States,57.0,147.0,IAH
+167,125,Stockholm,Sweden,52.3,92.0,ARN
+169,126,Graz,Austria,46.7,83.0,GRZ
+170,127,Toulouse,France,46.7,91.0,TLS
+171,128,Saint Petersburg,United States,63.0,117.8,
+172,129,Markham,Canada,57.9,87.9,
+173,130,Oulu,Finland,45.7,96.4,OUL
+174,131,Amsterdam,Netherlands,58.4,108.2,AMS
+175,132,Kansas City,United States,55.7,108.1,MCI
+176,133,Cork,Ireland,56.0,86.4,ORK
+177,134,Brighton,United Kingdom,57.2,79.4,
+178,135,Maastricht,Netherlands,50.3,99.1,MST
+179,136,Beersheba,Israel,44.2,80.9,
+180,137,Dortmund,Germany,45.4,81.8,DTM
+181,138,Louisville,United States,51.5,136.7,SDF
+182,139,St.Catharines,Canada,50.5,116.0,
+183,140,Hanover,Germany,46.5,87.7,
+184,141,Hamilton,Canada,52.9,83.6,YHM
+185,142,Florence,Italy,48.3,52.8,FLR
+186,143,Montpellier,France,50.3,87.3,MPL
+187,144,Bonn,Germany,48.8,78.4,
+188,145,Haifa,Israel,45.2,86.7,HFA
+189,146,Heidelberg,Germany,50.3,102.5,
+190,147,Bordeaux,France,46.5,81.9,BOD
+191,148,Antwerp,Belgium,47.5,82.1,ANR
+192,149,Kamloops,Canada,52.2,85.7,YKA
+193,150,Grenoble,France,45.2,82.8,GNB
+194,151,Christchurch,New Zealand,49.7,101.4,CHC
+195,152,Karlsruhe,Germany,47.6,104.9,FKB
+196,153,Winnipeg,Canada,48.4,74.7,
+197,154,Breda,Netherlands,49.1,126.2,
+198,155,Fredericton,Canada,47.1,108.5,YFC
+199,156,San Antonio,United States,55.6,124.9,SAT
+200,157,Reading,United Kingdom,52.6,102.2,
+201,158,Salt Lake City,United States,56.2,123.5,SLC
+202,159,Oxford,United Kingdom,57.1,96.6,
+203,160,Jerusalem,Israel,52.0,76.3,JRS
+204,161,Petah Tikva,Israel,46.8,75.0,
+205,162,Gent,Belgium,46.9,83.2,
+206,163,Saskatoon,Canada,47.0,95.5,YXE
+207,164,Groningen,Netherlands,45.8,98.4,GRQ
+208,165,Utrecht,Netherlands,51.0,111.7,
+209,166,Stuttgart,Germany,49.1,114.2,STR
+210,167,London,Canada,52.0,109.4,YXU
+211,168,Essen,Germany,44.1,103.2,
+212,169,Surrey,Canada,52.9,113.2,
+213,170,Wiesbaden,Germany,46.5,90.3,WIE
+214,171,Marseille,France,45.8,81.2,MRS
+215,172,Eindhoven,Netherlands,50.8,115.7,EIN
+216,173,Gold Coast,Australia,53.5,121.0,OOL
+217,174,Leeds,United Kingdom,48.7,91.9,LBA
+218,175,Montreal,Canada,49.0,94.0,YMQ
+221,176,Kingston,Canada,51.6,97.6,
+222,177,Enschede,Netherlands,47.1,109.0,
+223,178,Bologna,Italy,46.4,59.2,BLQ
+224,179,Hobart,Australia,46.7,115.8,HBA
+225,180,Nottingham,United Kingdom,46.7,87.2,EMA
+226,181,Glasgow,United Kingdom,47.9,97.0,PIK
+228,182,Delft,Netherlands,48.6,102.9,
+229,183,Trieste,Italy,43.1,61.5,TRS
+230,184,Kitchener,Canada,52.2,102.8,
+231,185,Manchester,United Kingdom,49.8,91.2,MAN
+232,186,Nuremberg,Germany,45.5,101.6,
+233,187,Macao,Macao (China),49.6,73.6,
+234,188,Red Deer,Canada,45.8,105.9,
+235,189,Dubai,United Arab Emirates,58.2,117.8,DXB
+236,190,Kelowna,Canada,52.4,90.8,YLW
+237,191,Bremen,Germany,43.9,90.9,BRE
+238,192,Nantes,France,45.9,72.5,NTE
+239,193,Parma,Italy,42.8,64.0,
+240,194,Bristol,United Kingdom,52.2,89.0,BRS
+241,195,Galway,Ireland,53.0,80.5,GWY
+242,196,Knoxville,United States,54.4,121.1,TYS
+243,197,Guelph,Canada,53.6,102.0,
+244,198,Rome,Italy,49.3,59.2,ROM
+247,199,Mannheim,Germany,44.6,105.1,
+248,200,Genoa,Italy,42.9,56.9,GOA
+249,201,Hamilton,New Zealand,45.6,83.1,HLZ
+250,202,Liverpool,United Kingdom,46.6,77.7,LPL
+251,203,Vicenza,Italy,42.5,61.0,
+252,204,Lille,France,45.5,81.7,LIL
+253,205,Leuven,Belgium,45.8,90.7,
+254,206,Memphis,United States,50.9,139.4,MEM
+255,207,Vienna,Austria,45.9,104.0,
+256,208,Plymouth,United Kingdom,46.0,56.5,
+257,209,Edinburgh,United Kingdom,50.9,85.0,
+258,210,Rotterdam,Netherlands,50.3,115.0,RTM
+259,211,Bournemouth,United Kingdom,49.2,75.1,BOH
+260,212,Augsburg,Germany,44.6,97.3,AGB
+261,213,Trento,Italy,45.9,60.0,
+262,214,Richmond,United States,53.4,139.3,RIC
+263,215,Aachen,Germany,43.1,108.3,
+264,216,Brescia,Italy,43.3,64.1,VBS
+265,217,Lund,Sweden,44.0,96.9,
+266,218,Limerick,Ireland,50.9,89.9,
+267,219,Dundee,United Kingdom,44.1,86.7,DND
+268,220,Cincinnati,United States,52.3,111.0,CVG
+269,221,Bergamo,Italy,43.7,71.7,BGY
+270,222,Tampere,Finland,43.4,94.8,TMP
+271,223,Derby,United Kingdom,43.7,108.1,
+272,224,Belfast,United Kingdom,45.9,88.4,BHD
+274,225,Sheffield,United Kingdom,46.2,82.0,SZD
+276,226,Sliema,Malta,47.7,52.9,
+277,227,Leipzig,Germany,42.6,90.1,LEJ
+278,228,Larnaca,Cyprus,45.1,47.0,LCA
+279,229,Southampton,United Kingdom,46.3,95.3,SOU
+280,230,Brampton,Canada,51.2,100.1,
+281,231,Windsor,Canada,47.1,103.3,
+282,232,Milton Keynes,United Kingdom,49.7,114.6,
+283,233,Cagliari,Italy,41.6,57.3,CAG
+284,234,Mississauga,Canada,53.3,98.1,
+285,235,Dresden,Germany,41.8,100.3,DRS
+286,236,Suzhou,China,43.4,28.8,
+287,237,Regina,Canada,43.1,135.9,YQR
+288,238,Exeter,United Kingdom,46.9,85.6,EXT
+289,239,Newcastle upon Tyne,United Kingdom,44.4,91.6,
+290,240,Limassol,Cyprus,53.8,49.8,QLI
+291,241,Prague,Czech Republic,46.9,65.2,PRG
+292,242,Treviso,Italy,42.3,60.0,TSF
+293,243,Padova,Italy,43.3,58.7,
+294,244,Uppsala,Sweden,42.4,84.5,
+295,245,Portsmouth,United Kingdom,46.3,103.4,
+296,246,Norwich,United Kingdom,46.2,94.3,NWI
+297,247,Swansea,United Kingdom,43.9,74.4,
+298,248,The Hague (Den Haag),Netherlands,46.9,123.7,
+299,249,Gothenburg,Sweden,43.7,95.8,GOT
+300,250,Turin,Italy,41.1,64.2,TRN
+301,251,Cardiff,United Kingdom,45.4,92.7,CWL
+302,252,Montevideo,Uruguay,40.4,43.9,MVD
+303,253,Bari,Italy,41.1,64.4,BRI
+304,254,Birmingham,United Kingdom,47.1,99.0,BHX
+305,255,Malmo,Sweden,41.9,98.9,MMA
+307,256,Verona,Italy,42.0,63.8,VRN
+309,257,Aberdeen,United Kingdom,41.8,116.7,ABZ
+310,258,Douglas,Isle Of Man,46.3,158.3,
+311,259,Rimini,Italy,40.4,67.6,RMI
+312,260,Leicester,United Kingdom,42.7,97.3,
+313,261,Al Khobar,Saudi Arabia,36.6,102.6,
+314,262,Abu Dhabi,United Arab Emirates,52.0,110.5,AUH
+315,263,Doha,Qatar,53.5,102.1,DOH
+316,264,Athens,Greece,39.0,41.2,HEW
+318,265,Chania,Greece,37.2,37.4,CHQ
+319,266,Kingston,Jamaica,39.6,25.3,KIN
+320,267,Bilbao,Spain,42.8,74.3,BIO
+321,268,Coventry,United Kingdom,42.3,132.4,CVT
+322,269,Tallinn,Estonia,39.2,65.7,QUF
+324,270,Port of Spain,Trinidad And Tobago,38.0,31.6,
+325,271,Barcelona,Spain,44.6,68.8,BCN
+326,272,Trinidad,Trinidad And Tobago,38.6,40.6,
+327,273,Tokyo,Japan,42.9,88.7,TYO
+330,274,Taipei,Taiwan,39.6,73.2,TPE
+332,275,Tartu,Estonia,36.8,59.6,
+333,276,Nicosia,Cyprus,39.0,62.5,NIC
+334,277,Naples,Italy,38.3,59.5,NAP
+335,278,San Jose,Costa Rica,39.7,33.5,SJO
+336,279,Riga,Latvia,35.4,52.6,RIX
+337,280,Thessaloniki,Greece,35.8,37.8,SKG
+338,281,Male,Maldives,40.8,32.3,
+339,282,Ljubljana,Slovenia,39.3,58.9,LJU
+340,283,Palma de Mallorca,Spain,40.5,66.2,PMI
+341,284,Larissa,Greece,33.3,42.8,
+342,285,Havana,Cuba,37.8,1.5,HAV
+343,286,Manama,Bahrain,41.2,80.3,
+344,287,Paphos,Cyprus,40.0,49.3,PFO
+345,288,Kingston upon Hull,United Kingdom,36.2,102.1,
+346,289,Taichung,Taiwan,34.9,49.5,
+347,290,Beirut,Lebanon,37.1,12.3,BEY
+348,291,Bratislava,Slovakia,37.4,55.5,BTS
+349,292,Palermo,Italy,34.4,63.9,PMO
+350,293,Zagreb,Croatia,36.0,55.0,
+351,294,Heraklion,Greece,33.8,40.2,HER
+352,295,Oviedo,Spain,34.9,93.8,OVD
+353,296,Osaka,Japan,35.0,92.8,OSA
+356,297,Santiago,Chile,35.5,31.1,
+357,298,Douala,Cameroon,38.3,6.1,DLA
+358,299,Riyadh,Saudi Arabia,37.6,93.2,RUH
+359,300,Madrid,Spain,40.8,103.2,MAD
+360,301,Lisbon,Portugal,44.0,43.7,LIS
+361,302,Catania,Italy,33.7,55.0,CTA
+362,303,Ramallah,Palestine,33.0,36.8,
+363,304,Ostrava,Czech Republic,34.4,65.7,
+364,305,Vilnius,Lithuania,37.1,60.2,VNO
+365,306,Zadar,Croatia,33.7,38.2,
+366,307,Brno,Czech Republic,36.6,66.4,
+367,308,Budapest,Hungary,34.9,53.6,BUD
+368,309,Jeddah (Jiddah),Saudi Arabia,33.6,88.9,
+369,310,Plzen,Czech Republic,33.9,75.8,
+370,311,Dubrovnik,Croatia,32.3,47.8,
+371,312,Pamplona,Spain,36.7,115.1,
+372,313,Corfu,Greece,32.6,38.1,CFU
+373,314,Seville (Sevilla),Spain,34.7,75.7,
+374,315,Muscat,Oman,34.6,82.5,MCT
+375,316,Granada,Spain,34.4,85.2,GRX
+376,317,Panama City,Panama,37.8,34.0,PTY
+377,318,Santo Domingo,Dominican Republic,35.8,19.9,SDQ
+378,319,Alicante,Spain,35.0,69.0,ALC
+379,320,Malaga,Spain,37.3,87.2,AGP
+380,321,Kaohsiung,Taiwan,31.1,56.3,
+381,322,Kaunas,Lithuania,32.9,60.3,
+382,323,New Taipei City,Taiwan,34.3,65.4,
+383,324,Valencia,Spain,36.4,94.4,VLC
+384,325,Olomouc,Czech Republic,33.1,65.0,
+385,326,Sharjah,United Arab Emirates,35.7,67.9,SHJ
+386,327,Kosice,Slovakia,33.0,51.3,
+387,328,Rijeka,Croatia,31.6,48.9,
+388,329,Monterrey,Mexico,36.1,47.9,MTY
+390,330,Cascais,Portugal,41.2,49.7,
+391,331,Las Palmas de Gran Canaria,Spain,34.8,56.0,
+392,332,Ad Dammam,Saudi Arabia,30.0,109.1,
+393,333,Klaipeda,Lithuania,31.0,59.6,
+394,334,Warsaw,Poland,37.9,63.4,WAW
+395,335,Katowice,Poland,31.6,61.7,
+396,336,Maribor,Slovenia,31.3,72.0,MBX
+397,337,Tijuana,Mexico,32.8,41.7,TIJ
+398,338,Amman,Jordan,29.1,32.9,AMM
+400,339,Funchal,Portugal,36.2,46.9,FNC
+401,340,Kuwait City,Kuwait,37.3,81.3,
+402,341,Mexico City,Mexico,35.5,36.2,MEX
+406,342,Dakar,Senegal,35.0,20.2,DKR
+407,343,Porto,Portugal,36.0,60.4,OPO
+408,344,Szeged,Hungary,28.7,51.7,
+409,345,Georgetown,Guyana,29.9,21.9,GEO
+410,346,Krakow (Cracow),Poland,33.9,66.9,
+411,347,Vigo,Spain,32.0,75.8,VGO
+412,348,Sofia,Bulgaria,30.3,59.0,SOF
+413,349,Phnom Penh,Cambodia,31.7,15.1,PNH
+414,350,Zaragoza (Saragossa),Spain,32.5,79.5,
+415,351,Leiria,Portugal,31.9,63.7,
+416,352,Wroclaw,Poland,33.2,58.9,
+417,353,Coimbra,Portugal,31.6,50.2,
+418,354,Murcia,Spain,31.9,65.0,MJV
+419,355,Abidjan,Ivory Coast,31.1,6.8,
+420,356,Addis Ababa,Ethiopia,32.1,10.8,ADD
+421,357,Santa Cruz de Tenerife,Spain,32.7,65.8,
+422,358,Budva,Montenegro,35.0,34.4,
+423,359,Bucharest,Romania,30.2,51.5,BUH
+425,360,Merida,Mexico,31.3,31.6,MID
+426,361,Poznan,Poland,31.2,58.6,POZ
+427,362,Bangkok,Thailand,33.2,30.1,DMK
+429,363,Cancun,Mexico,31.1,38.2,CUN
+430,364,Split,Croatia,30.1,57.7,
+431,365,Guadalajara,Mexico,31.6,41.3,GDL
+432,366,Sao Paulo,Brazil,31.5,24.3,SAO
+437,367,Gdansk,Poland,32.4,64.7,GDN
+438,368,Belgrade,Serbia,33.0,33.7,
+439,369,Tirana,Albania,29.9,28.6,TIA
+440,370,Braga,Portugal,32.0,54.4,
+441,371,Aveiro,Portugal,31.5,43.4,
+442,372,Yerevan,Armenia,35.8,24.6,
+443,373,Debrecen,Hungary,27.8,52.8,
+444,374,Shanghai,China,38.0,54.7,SHA
+446,375,Caracas,Venezuela,28.2,9.7,CCS
+447,376,Rio de Janeiro,Brazil,28.6,21.7,RIO
+450,377,Osijek,Croatia,27.0,51.7,
+451,378,San Salvador,El Salvador,30.2,22.5,SAL
+452,379,Lodz,Poland,30.3,55.6,
+453,380,Playa del Carmen,Mexico,34.7,34.9,
+454,381,Queretaro (Santiago de Querétaro),Mexico,29.1,49.5,
+455,382,Cluj-Napoca,Romania,28.7,53.6,
+456,383,Port Louis,Mauritius,29.2,26.9,
+457,384,Tbilisi,Georgia,33.6,24.1,TBS
+458,385,Puerto Vallarta,Mexico,34.8,43.1,PVR
+459,386,Podgorica,Montenegro,28.1,40.5,TGD
+460,387,Szczecin,Poland,31.0,54.9,
+461,388,Quezon City,Philippines,27.7,22.7,
+462,389,Guatemala City,Guatemala,29.3,23.8,GUA
+463,390,Constanta,Romania,27.0,39.1,CND
+464,391,Beijing,China,35.7,73.8,PEK
+466,392,Puebla,Mexico,27.1,35.8,PBC
+467,393,Brasilia,Brazil,27.0,39.3,BSB
+468,394,Novi Sad,Serbia,27.8,37.8,QND
+469,395,Manila,Philippines,29.4,24.0,MNL
+470,396,Phuket,Thailand,30.9,27.6,HKT
+471,397,Varna,Bulgaria,26.1,48.4,VAR
+472,398,Harare,Zimbabwe,26.9,17.6,HRE
+473,399,Brasov,Romania,26.1,45.2,
+474,400,Shenzhen,China,30.6,73.3,
+475,401,Sarajevo,Bosnia And Herzegovina,24.3,51.1,
+476,402,Campinas,Brazil,25.5,32.6,
+477,403,Florianopolis,Brazil,26.2,31.6,FLN
+478,404,Cebu,Philippines,25.9,17.3,
+479,405,Banja Luka,Bosnia And Herzegovina,24.0,39.8,
+480,406,Burgas,Bulgaria,25.0,45.4,
+481,407,Davao,Philippines,24.0,17.9,
+482,408,Hangzhou,China,27.0,56.4,
+483,409,Pattaya,Thailand,26.0,25.6,PYX
+484,410,Porto Alegre,Brazil,24.8,26.8,POA
+485,411,Oradea,Romania,23.8,40.2,
+486,412,Goiania,Brazil,23.7,24.0,GYN
+487,413,Plovdiv,Bulgaria,23.9,53.5,
+488,414,Johannesburg,South Africa,25.7,87.3,JNB
+489,415,Erbil (Irbil),Iraq,25.6,37.2,
+490,416,Guayaquil,Ecuador,25.8,41.0,GYE
+491,417,Curitiba,Brazil,23.9,35.1,CWB
+492,418,Port Elizabeth,South Africa,26.3,60.5,PLZ
+493,419,Timisoara,Romania,24.5,52.2,
+494,420,Minsk,Belarus,24.9,37.8,MSQ
+495,421,Belo Horizonte,Brazil,24.0,24.2,CNF
+496,422,Chisinau,Moldova,24.6,33.6,KIV
+497,423,Skopje,North Macedonia,23.3,36.2,
+498,424,Sibiu,Romania,23.9,47.4,
+499,425,Iasi,Romania,24.2,47.4,
+500,426,Sao Jose dos Campos,Brazil,23.8,34.6,
+501,427,Lima,Peru,26.0,27.2,LIM
+502,428,Tuzla,Bosnia And Herzegovina,21.9,41.4,
+503,429,Ho Chi Minh City,Vietnam,26.4,28.1,
+504,430,Moscow,Russia,28.6,55.9,MOW
+508,431,Recife,Brazil,22.5,37.5,REC
+509,432,Fortaleza,Brazil,22.1,18.7,FOR
+510,433,Nis,Serbia,22.8,39.7,INI
+511,434,Cuenca,Ecuador,24.3,29.8,
+512,435,Guangzhou,China,25.9,67.1,
+513,436,Kuala Lumpur,Malaysia,24.4,71.3,KUL
+515,437,Colombo,Sri Lanka,22.9,14.6,CMB
+516,438,Baghdad,Iraq,24.6,33.9,
+517,439,Craiova,Romania,22.3,46.9,
+518,440,Jakarta,Indonesia,25.8,27.0,HLP
+521,441,Chiang Mai,Thailand,23.1,32.4,CNX
+522,442,Pretoria,South Africa,23.5,86.9,PRY
+523,443,Almaty,Kazakhstan,28.1,31.4,ALA
+524,444,Kuching,Malaysia,23.3,27.8,KCH
+525,445,Hanoi,Vietnam,23.6,36.5,HAN
+526,446,Astana (Nur-Sultan),Kazakhstan,24.3,39.1,
+527,447,Cape Town,South Africa,26.7,73.9,CPT
+528,448,Chengdu,China,22.7,55.5,
+529,449,Quito,Ecuador,22.7,31.9,UIO
+530,450,Yekaterinburg,Russia,23.0,49.9,SVX
+531,451,Saint Petersburg,Russia,24.1,47.2,
+532,452,Casablanca,Morocco,23.3,33.7,CAS
+534,453,Suva,Fiji,26.1,78.9,SUV
+535,454,Durban,South Africa,22.7,71.1,DUR
+536,455,Kiev (Kyiv),Ukraine,23.1,36.2,
+537,456,Gaborone,Botswana,21.3,42.2,GBE
+538,457,Rabat,Morocco,23.4,28.0,RBA
+539,458,Istanbul,Turkey,25.0,31.1,IST
+541,459,Nanjing,China,23.7,68.7,
+542,460,Marrakech,Morocco,21.6,27.9,
+543,461,Ulaanbaatar,Mongolia,23.8,21.2,ULN
+544,462,Baku,Azerbaijan,22.3,28.9,BAK
+545,463,Kampala,Uganda,22.3,12.5,
+546,464,Baguio,Philippines,20.4,24.7,
+547,465,Kaliningrad,Russia,20.4,32.6,KGD
+548,466,Novosibirsk,Russia,21.2,35.4,OVB
+549,467,Algiers,Algeria,19.9,23.5,ALG
+550,468,Bitola,North Macedonia,19.4,34.0,
+551,469,Santa Cruz,Bolivia,21.6,27.2,
+552,470,Petaling Jaya,Malaysia,22.0,72.3,
+553,471,Nizhny Novgorod,Russia,20.8,36.7,GOJ
+554,472,Penang,Malaysia,21.9,60.1,
+555,473,Johor Bahru,Malaysia,20.3,61.9,JHB
+556,474,Da Nang,Vietnam,21.3,22.4,
+557,475,Dnipro,Ukraine,20.8,32.0,
+558,476,Odessa (Odesa),Ukraine,20.2,27.8,
+559,477,Nairobi,Kenya,21.4,29.5,NBO
+560,478,Pristina,Kosovo (Disputed Territory),20.9,35.4,
+561,479,Kigali,Rwanda,22.4,21.8,KGL
+562,480,Tangier,Morocco,20.7,28.8,TNG
+563,481,Tunis,Tunisia,19.3,22.8,TUN
+564,482,Kazan,Russia,20.1,34.7,KZN
+565,483,Kharkiv,Ukraine,20.8,29.4,
+566,484,Windhoek,Namibia,21.5,39.2,ERS
+568,485,Agadir,Morocco,18.6,28.7,AGA
+569,486,Tehran,Iran,22.6,18.1,THR
+570,487,Medellin,Colombia,20.9,28.0,MDE
+571,488,Surabaya,Indonesia,19.1,28.2,SUB
+572,489,Krasnodar,Russia,19.5,37.6,
+573,490,Bishkek,Kyrgyzstan,21.5,22.6,FRU
+574,491,Asuncion,Paraguay,21.3,25.8,ASU
+575,492,Buenos Aires,Argentina,20.6,30.2,BUE
+578,493,Lviv,Ukraine,21.0,36.1,
+579,494,Cartagena,Colombia,21.7,27.4,CTG
+580,495,Accra,Ghana,25.2,13.0,ACC
+581,496,Cali,Colombia,18.6,35.2,CLO
+582,497,Tashkent,Uzbekistan,22.3,25.6,TAS
+583,498,Dar es Salaam,Tanzania,20.9,18.9,
+584,499,Damascus,Syria,18.4,4.0,DAM
+585,500,Bogota,Colombia,20.2,27.6,BOG
+586,501,Bursa,Turkey,18.0,37.7,
+587,502,Dhaka,Bangladesh,16.9,26.0,DAC
+588,503,Kathmandu,Nepal,17.3,19.5,KTM
+589,504,Noida,India,17.2,75.4,
+590,505,Sfax,Tunisia,16.7,26.9,SFA
+591,506,Ankara,Turkey,18.7,34.0,ANK
+593,507,Izmir,Turkey,18.2,32.8,IZM
+595,508,Gurgaon,India,18.3,87.1,
+596,509,Antalya,Turkey,20.8,30.1,AYT
+597,510,Barranquilla,Colombia,17.5,29.1,BAQ
+598,511,Sousse,Tunisia,16.0,33.5,
+599,512,Kayseri,Turkey,16.1,35.9,ASR
+600,513,Mashhad,Iran,18.0,26.0,
+601,514,Mumbai,India,22.2,53.0,
+602,515,Chittagong,Bangladesh,15.2,26.5,CGP
+603,516,Lagos,Nigeria,21.1,11.5,LOS
+604,517,Bangalore,India,17.8,123.0,BLR
+605,518,Tripoli,Libya,16.6,27.8,TIP
+606,519,Hyderabad,India,16.3,65.9,HYD
+607,520,Navi Mumbai,India,18.1,82.1,
+608,521,Eskisehir,Turkey,15.7,34.8,
+609,522,Delhi,India,17.0,60.1,DEL
+610,523,Ahmedabad,India,17.3,41.1,AMD
+611,524,Isfahan (Esfahan),Iran,19.8,20.8,
+612,525,Cairo,Egypt,15.5,17.5,CAI
+613,526,New Cairo,Egypt,16.0,21.9,
+614,527,Pune,India,16.1,93.8,
+615,528,Kocaeli,Turkey,15.3,43.8,
+616,529,Surat,India,19.1,33.5,STV
+617,530,Vadodara,India,14.3,50.0,
+618,531,Adana,Turkey,14.7,38.6,ADA
+619,532,Alanya,Turkey,19.3,29.0,
+620,533,Jaipur,India,15.0,39.5,JAI
+621,534,Chennai,India,15.1,60.4,MAA
+622,535,Bhopal,India,13.7,50.8,BHO
+623,536,Bhubaneswar,India,13.9,46.2,BBI
+624,537,Mersin,Turkey,15.4,36.6,
+625,538,Kolkata,India,14.2,49.8,CCU
+626,539,Bucaramanga,Colombia,14.2,29.6,BGA
+627,540,Konya,Turkey,13.9,36.7,KYA
+628,541,Kochi,India,14.0,68.3,
+629,542,Lucknow (Lakhnau),India,13.4,55.3,
+630,543,Coimbatore,India,13.0,48.0,CJB
+631,544,Indore,India,12.9,63.4,
+632,545,Giza,Egypt,12.0,20.6,
+633,546,Alexandria,Egypt,11.8,17.3,HBH
+635,547,Lahore,Pakistan,11.8,24.0,LHE
+636,548,Islamabad,Pakistan,11.8,24.7,ISB
+637,549,Karachi,Pakistan,10.9,20.4,KHI

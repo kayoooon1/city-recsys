@@ -1,0 +1,249 @@
+City ;Country ;Index;
+Kathmandu; Nepal;95.7;KTR
+Tetovo; North Macedonia;95.6;HUF
+Faridabad; India;94.5;FAR
+Ulaanbaatar; Mongolia;94.2;UKI
+Beirut; Lebanon;93.7;BEW
+Dhaka; Bangladesh;93.6;DHA
+Noida; India;92.4;GOJ
+Ho Chi Minh City; Vietnam;92.2;HIJ
+Ghaziabad; India;92.2;GRO
+Gurgaon; India;91.3;GUC
+Delhi; India;90.7;YDF
+Cairo; Egypt;91.2;CNS
+Yangon; Myanmar;90.9;YNB
+Manila; Philippines;89.9;XMH
+Karachi; Pakistan;89.6;JHM
+Lagos; Nigeria;89.4;LFT
+Patna; India;89.3;PAT
+Hanoi; Vietnam;89.1;HAJ
+Kanpur; India;89.0;KNU
+Chelyabinsk; Russia;88.7;CHA
+Varanasi; India;88.5;VNS
+Pattaya; Thailand;87.4;PYX
+Tirana; Albania;86.6;TOD
+Lima; Peru;86.2;LLW
+Ludhiana; India;86.0;LKO
+Taichung; Taiwan;85.8;TUU
+Jakarta; Indonesia;85.0;JSA
+Cebu; Philippines;84.6;CAY
+Amritsar; India;84.3;ATQ
+Mumbai; India;83.6;MUX
+Skopje; North Macedonia;83.1;SKP
+Marrakech; Morocco;82.9;MQT
+Casablanca; Morocco;82.5;LRM
+Meerut; India;82.3;MKR
+Bangalore; India;81.8;BLR
+Mexico City; Mexico;81.2;MXL
+Tehran; Iran;80.8;TGU
+Dnipro; Ukraine;80.4;JIB
+Beijing; China;79.9;PEK
+Nairobi; Kenya;79.7;NBO
+Phnom Penh; Cambodia;79.1;PHL
+Naples; Italy;79.0;ACK
+Sao Paulo; Brazil;79.0;SAO
+Lahore; Pakistan;78.5;LHE
+Kolkata; India;78.4;KOK
+Almaty; Kazakhstan;78.1;ABE
+Addis Ababa; Ethiopia;78.0;ADA
+Chiang Mai; Thailand;77.9;CYS
+Lucknow (Lakhnau); India;77.7;LKO
+Santo Domingo; Dominican Republic;77.4;SDQ
+Bangkok; Thailand;77.1;BGU
+Guwahati; India;76.6;GAU
+Bali; Indonesia;76.4;BAK
+Hyderabad; India;76.0;HYG
+Bucharest; Romania;75.7;BUH
+Amman; Jordan;75.6;AZB
+Baku; Azerbaijan;74.5;BFL
+Chennai; India;74.1;CTU
+Caracas; Venezuela;73.8;CPT
+Alexandria; Egypt;73.5;ALJ
+Yekaterinburg; Russia;73.5;YAO
+Shanghai; China;73.1;ZTM
+Ahmedabad; India;72.4;AMD
+Baguio; Philippines;72.1;IXB
+Tunis; Tunisia;71.9;TUL
+Tbilisi; Georgia;71.9;TWU
+Kochi; India;71.8;KCZ
+Pune; India;70.9;PNQ
+Santiago; Chile;70.8;SRL
+Guangzhou; China;70.8;GUM
+Monterrey; Mexico;70.5;MRY
+Bogota; Colombia;70.2;BJV
+Dehradun; India;69.7;YDF
+Krakow (Cracow); Poland;69.4;KRK
+Sofia; Bulgaria;69.1;SFJ
+Istanbul; Turkey;68.9;IOM
+Turin; Italy;68.7;TRN
+Bandung; Indonesia;68.1;BWN
+Jeddah (Jiddah); Saudi Arabia;67.8;JED
+Milan; Italy;67.6;MIL
+Belgrade; Serbia;67.6;BEG
+Sarajevo; Bosnia And Herzegovina;67.4;SJJ
+Rio de Janeiro; Brazil;67.4;RBR
+Hong Kong; Hong Kong (China);67.2;HOM
+Los Angeles; CA United States;66.4;LRT
+Visakhapatnam; India;65.8;VIJ
+Kuala Lumpur; Malaysia;65.7;KSU
+Barcelona; Spain;65.2;BLA
+Ankara; Turkey;65.0;ANK
+Quito; Ecuador;64.9;UIN
+Vadodara; India;64.6;VAA
+Kiev (Kyiv); Ukraine;64.4;IEV
+Thessaloniki; Greece;64.1;YQD
+Paris; France;63.6;PAR
+Salt Lake City; UT United States;63.5;SKG
+Riyadh; Saudi Arabia;63.4;RIO
+Rome; Italy;63.3;ROM
+Coimbatore; India;63.0;CJB
+Medellin; Colombia;63.0;KNO
+Wroclaw; Poland;62.2;WRG
+Saint Petersburg; Russia;62.1;YSJ
+Panama City; Panama;61.9;PSP
+Guadalajara; Mexico;61.8;GDL
+Jaipur; India;61.8;JGB
+Odessa (Odesa); Ukraine;61.7;ODS
+Brussels; Belgium;61.7;BQK
+Nagpur; India;61.4;NAG
+Colombo; Sri Lanka;61.3;CGN
+Johannesburg; South Africa;61.1;JOE
+Varna; Bulgaria;60.6;VAR
+Shenzhen; China;60.4;SHE
+Izmir; Turkey;60.3;IZM
+Indore; India;60.2;IND
+Puerto Vallarta; Mexico;59.9;PVR
+Warsaw; Poland;59.9;WMB
+Doha; Qatar;59.8;DOD
+Navi Mumbai; India;59.2;SUV
+Yerevan; Armenia;59.1;SVX
+Seoul; South Korea;58.9;SDJ
+Iasi; Romania;58.8;HDD
+Bhopal; India;58.4;BHO
+New York; NY United States;57.9;MSY
+London; United Kingdom;57.7;YXU
+Antwerp; Belgium;57.7;ANR
+Poznan; Poland;57.7;POU
+Athens; Greece;57.5;ASW
+Kharkiv; Ukraine;57.2;UVL
+Hamilton; Canada;56.9;HLZ
+Surat; India;56.5;STV
+Porto Alegre; Brazil;56.4;PSD
+Mysore; India;56.4;MYQ
+Timisoara; Romania;56.2;TIJ
+Phoenix; AZ United States;56.2;PNH
+Pretoria; South Africa;56.1;PQI
+Houston; TX United States;56.0;HOR
+Moscow; Russia;55.9;MYA
+Davao; Philippines;55.9;DRW
+Thiruvananthapuram; India;55.9;TRV
+Budapest; Hungary;54.0;OTP
+Manchester; United Kingdom;53.1;MAN
+Durban; South Africa;52.8;DUR
+Las Vegas; NV United States;52.5;LPA
+Buenos Aires; Argentina;52.4;BUE
+Novi Sad; Serbia;52.2;QND
+Belo Horizonte; Brazil;52.0;BLI
+Lyon; France;52.0;LYH
+Chandigarh; India;51.0;CMI
+Qingdao; Shandong;50.5;FNJ
+San Francisco; CA United States;50.2;SAN
+Mangalore; India;49.8;MDL
+Taipei; Taiwan;49.5;TIF
+Gdansk; Poland;49.4;GDN
+Lviv; Ukraine;49.1;LXR
+Chicago; IL United States;48.7;QCB
+Dubai; United Arab Emirates;48.5;DRS
+Bhubaneswar; India;48.4;BBI
+Trieste; Italy;47.6;TRS
+Montevideo; Uruguay;46.9;NTR
+Tel Aviv-Yafo; Israel;46.7;TLV
+Abu Dhabi; United Arab Emirates;46.6;ABI
+Sacramento; CA United States;46.5;SCN
+Pittsburgh; PA United States;46.3;PSA
+San Antonio; TX United States;45.7;SJT
+Atlanta; GA United States;44.7;ATO
+Cluj-Napoca; Romania;44.4;CLE
+Brno; Czech Republic;44.0;BRS
+Denver; CO United States;43.9;DPS
+Antalya; Turkey;42.9;AYT
+Tokyo; Japan;42.6;TYO
+Dallas; TX United States;42.6;DLC
+Austin; TX United States;42.3;AUR
+San Diego; CA United States;42.1;BRC
+Minsk; Belarus;41.7;MOT
+Islamabad; Pakistan;41.3;ISG
+Dublin; Ireland;41.0;DBO
+Washington; DC United States;40.7;WAW
+Madrid; Spain;40.0;MAA
+Berlin; Germany;39.4;BER
+Miami; FL United States;39.2;MFU
+Cape Town; South Africa;38.9;CIW
+Riga; Latvia;37.8;RIX
+Bratislava; Slovakia;37.8;BSB
+Toronto; Canada;37.2;YTO
+Honolulu; HI United States;37.0;HIR
+Brampton; Canada;36.9;BRD
+Winnipeg; Canada;36.7;YQG
+Portland; OR United States;35.6;PSD
+Orlando; FL United States;35.4;KOI
+Muscat; Oman;35.0;MSR
+Tampa; FL United States;34.7;TLL
+Seattle; WA United States;34.7;SCF
+Charlotte; NC United States;34.6;CRW
+Frankfurt; Germany;34.6;FRW
+Lisbon; Portugal;34.3;LIQ
+Glasgow; United Kingdom;34.3;GLT
+Zagreb; Croatia;33.8;ZAD
+Montreal; Canada;33.7;YMQ
+Prague; Czech Republic;33.5;POZ
+Milwaukee; WI United States;33.5;MFN
+Columbus; OH United States;33.2;CAE
+Brasov; Romania;33.0;BSB
+Singapore; Singapore;33.0;MPD
+Boston; MA United States;32.3;BXS
+Nizhny Novgorod; Russia;32.1;INI
+Raleigh; NC United States;31.9;RAJ
+Brasilia; Brazil;31.8;BMP
+Curitiba; Brazil;31.6;CUR
+Auckland; New Zealand;31.0;YAT
+Sydney; Australia;30.5;SWP
+Edmonton; Canada;30.5;YEA
+Tucson; AZ United States;30.0;TSB
+Brisbane; Australia;29.5;BNE
+Valencia; Spain;29.1;VLN
+Hamburg; Germany;28.8;YUX
+Minneapolis; MN United States;28.6;MRV
+Melbourne; Australia;28.4;MKR
+Perth; Australia;28.3;PGF
+Edinburgh; United Kingdom;28.1;EAU
+Porto; Portugal;27.7;PSD
+Adelaide; Australia;27.1;ADL
+Split; Croatia;27.0;SPU
+Vancouver; Canada;26.6;VAN
+Ottawa; Canada;26.2;TRF
+Gold Coast; Australia;26.2;OOL
+Canberra; Australia;26.1;CGR
+Geneva; Switzerland;25.5;GEX
+Utrecht; Netherlands;25.1;UII
+Amsterdam; Netherlands;25.1;ATQ
+Calgary; Canada;25.0;CCU
+Munich; Germany;24.7;MUX
+Vilnius; Lithuania;24.6;VNO
+Rotterdam; Netherlands;24.6;RTM
+Halifax; Canada;24.4;HKD
+Mississauga; Canada;24.0;QML
+Darwin; Australia;23.3;DRW
+Ljubljana; Slovenia;23.0;LZR
+Wellington; New Zealand;22.8;WLG
+Copenhagen; Denmark;22.7;OOM
+Oslo; Norway;21.5;OSI
+Gothenburg; Sweden;20.9;GOZ
+Zurich; Switzerland;20.7;KKC
+Victoria; Canada;19.5;YYJ
+The Hague (Den Haag); Netherlands;19.2;TCU
+Tallinn; Estonia;19.1;TLH
+Stockholm; Sweden;18.0;SZZ
+Vienna; Austria;16.1;VID
+Reykjavik; Iceland;14.9;REU
+Helsinki; Finland;12.9;JHE
