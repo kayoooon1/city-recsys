@@ -108,7 +108,7 @@ def rank_eval(all_data_df, wht_dict, avg_temp_user, std_dev_temp_user):
                                 row['rank_purchase_pow']*wht_dict['wt_purchase_pow']) / sum(wht_dict.values()))
         scores.append(s)
 
-    finding_home_df = all_data_df[['city_ascii','country','lat','lng']].copy()
+    finding_home_df = all_data_df[['city_ascii','country','lat','lng','mean_tmp','std_dev_temp']].copy()
 
     finding_home_df['final_score'] = scores
 
@@ -120,7 +120,7 @@ finding_home_df = rank_eval(all_data_df, wht_dict, avg_temp_user,std_dev_temp_us
 #print(finding_home_df.columns)
 #print(finding_home_df.head())
 
-finding_home_top5_df = finding_home_df.head(10)
+finding_home_top_df = finding_home_df.head(10)
 
 
 # ---------------------------------------------------------------------------------------
@@ -133,13 +133,13 @@ finding_home_top5_df = finding_home_df.head(10)
 import plotly.graph_objects as go
 
 # Create a numerical column 'city_id' that maps to 'city_ascii'
-finding_home_top5_df.loc[:, 'city_id'] = pd.Categorical(finding_home_top5_df['city_ascii']).codes + 1
+finding_home_top_df.loc[:, 'city_id'] = pd.Categorical(finding_home_top_df['city_ascii']).codes + 1
 
 fig = go.Figure(data=go.Scattergeo(
-    lon = finding_home_top5_df['lng'],
-    lat = finding_home_top5_df['lat'],
+    lon = finding_home_top_df['lng'],
+    lat = finding_home_top_df['lat'],
     # Add the index to the text
-    text = 'Rank ' + finding_home_top5_df['city_id'].astype(str) + ': ' + finding_home_top5_df['city_ascii'] + ', ' + finding_home_top5_df['country'],
+    text = 'Rank ' + finding_home_top_df['city_id'].astype(str) + ': ' + finding_home_top_df['city_ascii'] + ', ' + finding_home_top_df['country'],
     mode = 'markers',
     marker = dict(
         size = 12,
@@ -151,7 +151,7 @@ fig = go.Figure(data=go.Scattergeo(
             width=1,
             color='rgba(102, 102, 102)'
         ),
-        color = finding_home_top5_df['city_id'],  # Use 'city_id' for color
+        color = finding_home_top_df['city_id'],  # Use 'city_id' for color
         colorscale = 'Viridis',  # Use a predefined colorscale
         colorbar_title="Cities"
     )))
@@ -185,63 +185,34 @@ fig.update_layout(
 
 st.markdown("### Top 10 Cities For the Parameters Set By You.")
 st.plotly_chart(fig)
+
+# ---------------------------------------------------------------------------------------
+# Top 10 Table
+top_20_df_to_show = finding_home_top_df
+top_20_df_to_show = top_20_df_to_show.drop(['lat','lng','final_score','city_id'],axis=1)
+rnk = [i for i in range(1,11)]
+#print(rnk)
+top_20_df_to_show['Rank'] = rnk
+top_20_df_to_show['mean_tmp'] = top_20_df_to_show['mean_tmp'].round(1)
+top_20_df_to_show['std_dev_temp'] = top_20_df_to_show['std_dev_temp'].round(1)
+top_20_df_to_show = top_20_df_to_show.reindex(columns = ['Rank','city_ascii','country','mean_tmp','std_dev_temp'])
+st.dataframe(top_20_df_to_show,
+        hide_index=True,
+        column_config={
+            "Rank": "Rank",
+            "city_ascii": "City Name",
+            "country": "Country",
+            "mean_tmp": st.column_config.NumberColumn(
+                "Mean Temperature",
+                format='%f °C'
+                ),
+            "std_dev_temp": st.column_config.NumberColumn(
+                "Temerature Variance (From Average)",
+                format='%f °C'
+                )
+            },
+        width = 900
+        )
+
 # ---------------------------------------------------------------------------------------
 # Math Explainer
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
