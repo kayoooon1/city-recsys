@@ -1,6 +1,17 @@
-# Finding Home: Exploring the Best Cities to Live In     
-Which city is the best to live in? This project aims to explore the association between different features of cities and their impact on liveability. We start by exploring datasets like suicide rates and the hours of sunshine by cities/countries. Later, we plan to model a “good” city based on more features, such as average temperature, green spaces, criminal rate, traffic jams, cost of living etc. We define the likelihood of a ”good” city, given a feature by assuming the best range of values for our feature set based on past studies. Then, we create a model that calculates the probability that a given city is the best city to live in, given our assumed ”best range” values. We plan to make interactive plots where the ”best range” values can be modified. Here, the users can decide their own “best parameters” for finding the “best” city and get personalized rankings.
+# Finding Home: Exploring the Best Cities to Live In    
+## Project Overview
+Which city is the best to live in? This project delves into the exploration of various features about different cities and the impact on their liveability. Some of those features are the average temperature, cost of living and average commuting time. Based on the most desirable values regarding those features, we define the likelihood of a city being ”good” to live in. Based on a unsupervised learning model, we classify the cities in order of their overall liveability based on user preferences regarding the beforementioned features. This is done through customizable parameters, enabling the user to interact with the model and therefore, creating personalized rankings.
 
+## Repository Structure
+all_data: Contains the combined dataset. Refer to data source links and a brief explanation of how the datasets were merged.
+Modeling: Jupyter notebooks detailing each experiment conducted. Provide a short description of the content of each notebook.
+eda: Exploratory Data Analysis files.
+streamlit: Link to the Streamlit app for interactive visualization.
+other_files: Any additional files relevant to the project.
+
+## Requirements
+Python Version: 3.10
+Required Libraries: List the necessary Python libraries with versions, e.g., Pandas, NumPy, Matplotlib, Scikit-learn, etc.
 
 
 ## Project Timeline   
@@ -12,7 +23,7 @@ Which city is the best to live in? This project aims to explore the association 
 | 2024-01-11 | 3  | Finalize the project, Report First Draft  | |  |
 | 2024-01-16 | 3.5  | Writing report | |  | 
 | 2024-01-18 | 4  | Finalize the report | |  | 
-| 2024-01-25 | 5  | Done with the report | |  |   
+| 2024-01-25 | 5  | Final changes and submit | |  |   
 
 
 ## Team Members 
