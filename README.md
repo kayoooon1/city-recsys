@@ -3,11 +3,14 @@
 Which city is the best to live in? This project delves into the exploration of various features about different cities and the impact on their liveability. Some of those features are the average temperature, cost of living and average commuting time. Based on the most desirable values regarding those features, we define the likelihood of a city being ”good” to live in. Based on a unsupervised learning model, we classify the cities in order of their overall liveability based on user preferences regarding the beforementioned features. This is done through customizable parameters, enabling the user to interact with the model and therefore, creating personalized rankings.
 
 ## Repository Structure
-all_data: Contains the combined dataset. Refer to data source links and a brief explanation of how the datasets were merged.
-Modeling: Jupyter notebooks detailing each experiment conducted. Provide a short description of the content of each notebook.
-eda: Exploratory Data Analysis files.
-streamlit: Link to the Streamlit app for interactive visualization.
-other_files: Any additional files relevant to the project.
+
+EDA: Exploratory Data Analysis files. Here you will find the descriptive statistics and other preliminary tests
+
+all_data: Contains the combined dataset and the code used for the merging process. We collected the data from various openly available sources. Those datasets were merged and subsequently standardized. Links to the data: ....
+
+Modeling: Contains Jupyter notebooks detailing the analysis we have tested to construct our model and the visualizations of our data. The models we have used are the following: ....
+
+streamlit: Here we have stored all the files necessary to run our interactive stramlit plots. Link to the Streamlit app ...
 
 ## Requirements
 Python Version: 3.10
