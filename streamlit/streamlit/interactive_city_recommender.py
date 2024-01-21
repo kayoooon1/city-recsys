@@ -14,7 +14,7 @@ import plotly.express as px
 import numpy as np
 from pathlib import Path
 from joblib import load
-#from sklearn.decomposition import PCA
+from sklearn.decomposition import PCA
 import plotly.graph_objects as go
 #from tueplots import bundles
 #from tueplots.constants.color import rgb
