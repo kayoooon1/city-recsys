@@ -4,9 +4,9 @@ Which city is the best to live in? This project delves into the exploration of v
 
 ## Repository Structure
 
-EDA: Exploratory Data Analysis files. Here you will find the descriptive statistics and other preliminary tests
+EDA: Exploratory Data Analysis files. Here the descriptive statistics and other preliminary tests are stored.
 
-all_data: Contains the combined dataset and the code used for the merging process. We collected the data from various openly available sources. Those datasets were merged and subsequently standardized. Links to the data: ....
+all_data: Contains the combined dataset and the code used for the merging process. We collected the data from various openly available sources. Those datasets were merged and subsequently standardized, obtaining a final sample of 154 cities with 7 features. The data is stored in a CSV. file.
 
 Modeling: Contains Jupyter notebooks detailing the analysis we have tested to construct our model and the visualizations of our data. The models we have used are the following: ....
 
@@ -21,18 +21,18 @@ Required Libraries: List the necessary Python libraries with versions, e.g., Pan
 |       Date       | Week | To-dos | | |
 |:----------------:|:------:|:----------------------------------------:|:----------:|:------:|
 | 2023-12-07 | 1  | Preprocess in combined dataset & EDA | |  |   
-| 2023-12-14 | 2  | Working on the plot & Correlation & Mathematical Model| |  |
-| 2024-01-09 | 2.5  | Working on the visualization (plots etc) | |  | 
-| 2024-01-11 | 3  | Finalize the project, Report First Draft  | |  |
+| 2023-12-14 | 2  | Preliminary plots, analysis & Mathematical models| |  |
+| 2024-01-09 | 2.5  | Working on the visualization (plots, streamlit etc.) | |  | 
+| 2024-01-11 | 3  | Finalize the project, First Draft of the Report | |  |
 | 2024-01-16 | 3.5  | Writing report | |  | 
 | 2024-01-18 | 4  | Finalize the report | |  | 
-| 2024-01-25 | 5  | Final changes and submit | |  |   
+| 2024-01-25 | 5  | Final changes and submition | |  |   
 
 
 ## Team Members 
 Jenny Lang (jenny.lang@student.uni-tuebingen.de)  
 Kayoon Kim (ka.kim@student.uni-tuebingen.de)   
-Joseph Wan-Wang (joseph.wan-wang@student.uni-tuebingen.de)   
+Joseph L. Wan-Wang (joseph.wan-wang@student.uni-tuebingen.de)   
 Ashutosh Jha (ashutosh.jha@student.uni-tuebingen.de)
 
 ## Purpose of the Project
