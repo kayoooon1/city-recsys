@@ -14,7 +14,7 @@ streamlit: Here we have stored all the files necessary to run our interactive st
 
 ## Requirements
 Python Version: 3.10
-Required Libraries: List the necessary Python libraries with versions, e.g., Pandas, NumPy, Matplotlib, Scikit-learn, etc.
+Required Libraries: Pandas, NumPy, Matplotlib, Scikit-learn, 
 
 
 ## Project Timeline   
