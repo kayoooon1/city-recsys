@@ -8,9 +8,9 @@ EDA: Exploratory Data Analysis files. Here the descriptive statistics and other 
 
 all_data: Contains the combined dataset and the code used for the merging process. We collected the data from various openly available sources. Those datasets were merged and subsequently standardized, obtaining a final sample of 154 cities with 7 features. The data is stored in a CSV. file.
 
-Modeling: Contains Jupyter notebooks detailing the analysis we have tested to construct our model and the visualizations of our data. The models we have used are the following: ....
+Modeling: Contains Jupyter notebooks detailing the analysis we have tested to construct our model and the visualizations of our data. The candidate models we have tested are the following: Bayesian propability model, K-means, 
 
-streamlit: Here we have stored all the files necessary to run our interactive stramlit plots. Link to the Streamlit app ...
+streamlit: Here we have stored all the files necessary to run our interactive stramlit plots. The link to the Streamlit app can be found here: https://finding-home-app-ezqbrpvhtiqzyrv3drqedq.streamlit.app/
 
 ## Requirements
 Python Version: 3.10
@@ -18,11 +18,11 @@ Required Libraries: List the necessary Python libraries with versions, e.g., Pan
 
 
 ## Project Timeline   
-|       Date       | Week | To-dos | | |
+|       Date       | Week | To-dos | Issues | |
 |:----------------:|:------:|:----------------------------------------:|:----------:|:------:|
-| 2023-12-07 | 1  | Preprocess in combined dataset & EDA | |  |   
-| 2023-12-14 | 2  | Preliminary plots, analysis & Mathematical models| |  |
-| 2024-01-09 | 2.5  | Working on the visualization (plots, streamlit etc.) | |  | 
+| 2023-12-07 | 1  | Preprocess in combined dataset & EDA | Lost data due to merging |  |   
+| 2023-12-14 | 2  | Preliminary plots, analysis & Mathematical models| Finding an appropiate model for our data |  |
+| 2024-01-09 | 2.5  | Working on the visualization (plots, streamlit etc.) |  |  | 
 | 2024-01-11 | 3  | Finalize the project, First Draft of the Report | |  |
 | 2024-01-16 | 3.5  | Writing report | |  | 
 | 2024-01-18 | 4  | Finalize the report | |  | 
