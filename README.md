@@ -11,7 +11,7 @@ dat: Contains the combined dataset and the code used for the merging process. We
 exp: Contains Jupyter notebooks detailing the analysis we have tested to construct our model. 
 
 viz: Stored visualizations for our reports
-  streamlit: Here we have stored all the files necessary to run our interactive streamlit plots. The link to the Streamlit app can be found here: https://finding-home-app-ezqbrpvhtiqzyrv3drqedq.streamlit.app/
+      streamlit: Here we have stored all the files necessary to run our interactive streamlit plots. The link to the Streamlit app can be found here: https://finding-home-app-ezqbrpvhtiqzyrv3drqedq.streamlit.app/
 
 ### Requirements
 Python Version: 3.10
