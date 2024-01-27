@@ -18,15 +18,15 @@ Required Libraries: Pandas, NumPy, Matplotlib, Scikit-learn,
 
 
 ## Project Timeline   
-|       Date       | Week | To-dos | Issues | |
-|:----------------:|:------:|:----------------------------------------:|:----------:|:------:|
-| 2023-12-07 | 1  | Preprocess in combined dataset & EDA | Lost data due to merging |  |   
-| 2023-12-14 | 2  | Preliminary plots, analysis & Mathematical models| Finding an appropiate model for our data |  |
-| 2024-01-09 | 2.5  | Working on the visualization (plots, streamlit etc.) |  |  | 
-| 2024-01-11 | 3  | Finalize the project, First Draft of the Report | |  |
-| 2024-01-16 | 3.5  | Writing report | |  | 
-| 2024-01-18 | 4  | Finalize the report | |  | 
-| 2024-01-25 | 5  | Final changes and submition | |  |   
+|       Date       | Week | To-dos |
+|:----------------:|:------:|:----------------------------------------:|
+| 2023-12-07 | 1  | Preprocess in combined dataset & EDA |
+| 2023-12-14 | 2  | Preliminary plots, analysis & Mathematical models|
+| 2024-01-09 | 2.5  | Working on the visualization (plots, streamlit etc.) |
+| 2024-01-11 | 3  | Finalize the project, First Draft of the Report |
+| 2024-01-16 | 3.5  | Writing report |
+| 2024-01-18 | 4  | Finalize the report |
+| 2024-01-25 | 5  | Final changes and submition |
 
 
 ## Team Members 
