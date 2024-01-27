@@ -35,7 +35,7 @@ MPL_Toolkits
 </pre>
 
 ### Team Members 
-Ashutosh Jha (ashutosh.jha@student.uni-tuebingen.de)
+Ashutosh Jha (ashutosh.jha@student.uni-tuebingen.de)    
 Jenny Lang (jenny.lang@student.uni-tuebingen.de)  
 Joseph L. Wan-Wang (joseph.wan-wang@student.uni-tuebingen.de)   
 Kayoon Kim (ka.kim@student.uni-tuebingen.de)   
