@@ -14,6 +14,7 @@ streamlit: Here we have stored all the files necessary to run our interactive st
 
 ## Requirements
 Python Version: 3.10
+
 Required Libraries:
 <pre>
 
