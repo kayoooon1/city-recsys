@@ -27,7 +27,8 @@ st.set_page_config(
     page_icon="🧊",
     layout="wide",
     initial_sidebar_state="expanded",
-    menu_items={"About": "(c) Ashutosh Jha, 2023"},
+    menu_items={"About": "(c) Project Title: Finding Home: Which is the best \
+            city? Contributors: Kayoon Kim, Jenny Lang, Joseph Wan Wang, Ashutosh Jha, 2023"},
 )
 
 st.sidebar.title("What is important for your best city?")
@@ -120,6 +121,7 @@ def rank_eval(all_data_df, train_df_pca, wht_dict):
     scaled_best_mean_tmp = (wht_dict['wt_mean_temp'] - all_data_df['mean_tmp'].min()) / mean_tmp_range
     scaled_best_std_dev_tmp = (wht_dict['wt_std_dev'] - all_data_df['std_dev_temp'].min()) / std_dev_temp_range
 
+    #print("1",scaled_best_mean_tmp,scaled_best_std_dev_tmp)
     # Normalize the new point
     all_data_df['scaled_mean_tmp'] = ( (all_data_df['mean_tmp'] - all_data_df['mean_tmp'].min()) /
                                            (all_data_df['mean_tmp'].max() - all_data_df['mean_tmp'].min()) )
@@ -130,7 +132,8 @@ def rank_eval(all_data_df, train_df_pca, wht_dict):
                                            all_data_df['scaled_mean_tmp'].std() )
     scaled_best_std_dev_tmp = ( (scaled_best_std_dev_tmp - all_data_df['scaled_tmp_std_dev'].mean()) /
                                            all_data_df['scaled_tmp_std_dev'].std() )
-
+    
+    #print("3",scaled_best_mean_tmp,scaled_best_std_dev_tmp)
     new_point = np.array([[wht_dict['wt_cost_living'],wht_dict['wt_purchase_pow'],
         wht_dict['wt_safety'],wht_dict['wt_pollution'],wht_dict['wt_traffic'],
         scaled_best_mean_tmp,scaled_best_std_dev_tmp]])
@@ -159,6 +162,7 @@ def rank_eval(all_data_df, train_df_pca, wht_dict):
     # modelling section.
     new_point_df = pd.DataFrame(new_point_loc.reshape(1, -1), columns=feature_names)
 
+    #print(new_point_df)
     # Transform the new_point using the same PCA object
     new_point_pca = pca_loaded.transform(new_point_df)
 
@@ -225,7 +229,7 @@ fig = go.Figure(data=go.Scattergeo(
         ),
         color = finding_home_top_df['Rank'],  # Use 'city_id' for color
         colorscale = 'Viridis',  # Use a predefined colorscale
-        colorbar_title="Cities"
+        colorbar_title="City Rank Scale (1 -10)"
     )))
 
 
@@ -236,8 +240,7 @@ fig.update_geos(
     showland=True, landcolor="Brown",
     showocean=True, oceancolor="Azure",
     showlakes=True, lakecolor="LightBlue",
-    showrivers=True, rivercolor="LightBlue",
-    bgcolor = 'black'
+    showrivers=True, rivercolor="LightBlue"
 )
 
 fig.update_layout(
@@ -245,7 +248,7 @@ fig.update_layout(
     geo = dict(
         scope='world',
         #projection_type='equirectangular',
-        projection_type='natural earth',
+        projection_type='equirectangular',
         showland = True,
         landcolor = "rgb(250, 250, 250)",
         countrycolor = "rgb(200, 200, 200)",
@@ -275,7 +278,7 @@ trace1 = go.Scatter3d(
     ),
     text=train_df_pca['city_ascii'],  # add labels
     hoverinfo='text',
-    name='Dataset Cities'
+    name='Real Cities in the Dataset.'
 )
 
 # Create a trace for the new point
@@ -288,7 +291,8 @@ trace2 = go.Scatter3d(
         size=10,
         color='red',                 # set color to red
     ),
-    name='Ideal City'
+    text="Your Ideal City!",
+    name='Ideal City (Based on Parameters Set on the Left Drawer.)'
 )
 
 # Define the layout
