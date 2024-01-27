@@ -18,6 +18,8 @@ Required Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Dotenv, Tu
 
 <pre>
 import pandas as pd
+import matplotlib.pyplot as plt
+
 </pre>
 
 ## Team Members 
