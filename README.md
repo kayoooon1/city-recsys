@@ -13,13 +13,16 @@ Modeling: Contains Jupyter notebooks detailing the analysis we have tested to co
 streamlit: Here we have stored all the files necessary to run our interactive stramlit plots. The link to the Streamlit app can be found here: https://finding-home-app-ezqbrpvhtiqzyrv3drqedq.streamlit.app/
 
 ## Requirements
-Python Version: 3.10
-Required Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Dotenv, Tueplot
-
 <pre>
-import pandas as pd
-import matplotlib.pyplot as plt
-
+Python Version: 3.10
+Required Libraries:
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Scikit-learn
+Dotenv
+Tueplot
 </pre>
 
 ## Team Members 
