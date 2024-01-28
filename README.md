@@ -6,7 +6,7 @@ Which city is the best to live in? This project delves into the exploration of v
 
 eda: Exploratory Data Analysis files.
 
-dat: Contains the combined dataset and the code used for the merging process. We collected the data from various openly available sources. Those datasets were merged and subsequently standardized, obtaining a final sample of 154 cities with 7 features. The final dataset is stored in a CSV. The file named "all-data-best-city.csv".
+dat: Contains the combined dataset and the code used for the merging process. We collected the data from various openly available sources. Those datasets were merged and subsequently standardized, obtaining a final sample of 124 cities with 7 features. The final dataset is stored in a CSV. The file named "all-data-best-city.csv".
 
 exp: Contains Jupyter notebooks detailing the analysis we have tested to construct our model. 
 
