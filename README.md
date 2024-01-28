@@ -8,10 +8,14 @@ eda: Exploratory Data Analysis files.
 
 dat: Contains the combined dataset and the code used for the merging process. We collected the data from various openly available sources. Those datasets were merged and subsequently standardized, obtaining a final sample of 124 cities with 7 features. The final dataset is stored in a CSV. The file named "all-data-best-city.csv".
 
-exp: Contains Jupyter notebooks detailing the analysis we have tested to construct our model. 
+exp: Contains Jupyter notebooks detailing the analysis we have done to construct our model. 
 
-viz: Stored visualizations for our reports   
-- streamlit: Here we have stored all the files necessary to run our interactive streamlit plots. The link to the Streamlit app can be found here: https://finding-home-app-ezqbrpvhtiqzyrv3drqedq.streamlit.app/
+viz: Stored visualizations for our Report.   
+- streamlit: Here we have stored all the files necessary to run our interactive streamlit plots. The link to the Streamlit Web-Hosted app can be found here: https://finding-home-app-ezqbrpvhtiqzyrv3drqedq.streamlit.app/
+- The app can be run locally using the following command, given all required libraries and python version 3.10 are present.
+```
+streamlit run viz/streamlit/streamlit/interactive_city_recommender.py
+```
 
 ### Requirements
 Python Version: 3.10
