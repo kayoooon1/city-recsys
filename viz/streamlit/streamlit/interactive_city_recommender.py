@@ -1,6 +1,6 @@
 """
 This script is for a streamlit app that visualizes a city recommendation system
-based on feature values and weights input by the User.
+based on feature values input by the User.
 This is part of the evaluated project component of the course "Data Literacy"
 in WS 2023-24, at the University of Tuebingen, by Prof. Phillip Hennig.
 Project Title: "Finding Home: Which is the best city?"
@@ -32,14 +32,6 @@ st.set_page_config(
 )
 
 st.sidebar.title("What is important for your best city?")
-
-# Markdown - Quick text explainer on what we are doing in the graphs below.
-#st.markdown(
-#    """    
-#    Evaluating the best cities for you based on feature importance specified in
-#    the left!
-#    """
-#)
 
 # ---------------------------------------------------------------------------------------
 # Sidebar: parameters
@@ -102,7 +94,7 @@ if "Unnamed: 0" in list(all_data_df.columns):
 #print(list(all_data_df.columns))
 #print(all_data_df.head())
 
-# train_df_pca : Dataframe with rows converted to three pprincipal components
+# train_df_pca : Dataframe with rows converted to three principal components
 # for all 124 data points
 train_df_pca_csv = Path(__file__).parents[1] / 'streamlit/train_df_pca.csv'
 
@@ -112,7 +104,11 @@ if "Unnamed: 0" in list(all_data_df.columns):
 
 
 # ---------------------------------------------------------------------------------------
-# Functions?
+# Functions
+# rank_eval: Compute the top 10 closest cities to the new feature set values
+# input by the user, by converting the new_point from 7D to 3D using same
+# PCA object as used for the dataset and then evaluating euclidean distance
+# and finally sorting.
 def rank_eval(all_data_df, train_df_pca, wht_dict):
     
     mean_tmp_range = all_data_df['mean_tmp'].max() - all_data_df['mean_tmp'].min()
@@ -166,14 +162,13 @@ def rank_eval(all_data_df, train_df_pca, wht_dict):
     # Transform the new_point using the same PCA object
     new_point_pca = pca_loaded.transform(new_point_df)
 
-    # Initialize an empty list to store the distances
     distances = []
     # Calculate Euclidean distance for each point in the dataframe
     for point in train_numpy_pca:
         distance = np.sqrt(np.sum((point - new_point_pca) ** 2))
         distances.append(distance)
 
-    # Create a new dataframe with distances
+    
     df_distances = pd.DataFrame(distances, columns=['Distance'], index=city_ascii)
 
     df_distances['city_ascii'] = df_distances.index
@@ -203,18 +198,11 @@ finding_home_top_df = finding_home_df.head(10)
 
 # ---------------------------------------------------------------------------------------
 # Plotting
-#fig = px.scatter_geo(finding_home_top5_df, lat='lat', lon='lng',color='city_ascii', title='Best Cities For You!')
-
-# Making the plot fancy
-#fig.update_geos(showcountries=True, showcoastlines=True, showland=True, fitbounds="locations")
-
-# Create a numerical column 'city_id' that maps to 'city_ascii'
-#finding_home_top_df.loc[:, 'city_id'] = pd.Categorical(finding_home_top_df['city_ascii']).codes + 1
+# Interactive World map top 10 cities plot
 
 fig = go.Figure(data=go.Scattergeo(
     lon = finding_home_top_df['lng'],
     lat = finding_home_top_df['lat'],
-    # Add the index to the text
     text = 'Rank ' + finding_home_top_df['Rank'].astype(str) + ': ' + finding_home_top_df['city_ascii'] + ', ' + finding_home_top_df['country'],
     mode = 'markers',
     marker = dict(
@@ -227,8 +215,8 @@ fig = go.Figure(data=go.Scattergeo(
             width=1,
             color='rgba(102, 102, 102)'
         ),
-        color = finding_home_top_df['Rank'],  # Use 'city_id' for color
-        colorscale = 'Viridis',  # Use a predefined colorscale
+        color = finding_home_top_df['Rank'],
+        colorscale = 'Viridis',
         colorbar_title="City Rank Scale (1 -10)"
     )))
 
@@ -254,8 +242,8 @@ fig.update_layout(
         countrycolor = "rgb(200, 200, 200)",
     ),
     autosize=False,
-    width=950,  # Adjust the width
-    height=700,  # Adjust the height
+    width=950,
+    height=700,
     uirevision='constant'
 )
 
@@ -273,10 +261,10 @@ trace1 = go.Scatter3d(
     mode='markers',
     marker=dict(
         size=6,
-        color='green',                # set color to white
-        opacity=0.5                   # set opacity to make points faint
+        color='green',
+        opacity=0.5
     ),
-    text=train_df_pca['city_ascii'],  # add labels
+    text=train_df_pca['city_ascii'],
     hoverinfo='text',
     name='Real Cities in the Dataset.'
 )
@@ -289,7 +277,7 @@ trace2 = go.Scatter3d(
     mode='markers',
     marker=dict(
         size=10,
-        color='red',                 # set color to red
+        color='red',
     ),
     text="Your Ideal City!",
     name='Ideal City (Based on Parameters Set on the Left Drawer.)'
@@ -319,10 +307,9 @@ layout = go.Layout(
 
 
 
-# Create the figure and add traces
 fig = go.Figure(data=[trace1, trace2], layout=layout)
 
-# Show the plot
+
 st.write("\n")
 st.markdown("### Your Best City plotted against Real cities in Dataset,\
         Interact with the graph and find the closest city visually!")
@@ -355,4 +342,3 @@ st.dataframe(top_20_df_to_show,
         )
 
 # ---------------------------------------------------------------------------------------
-# Math Explainer
